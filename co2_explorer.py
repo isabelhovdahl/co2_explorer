@@ -196,7 +196,7 @@ card2 = dbc.Card(
 
 
 app = Dash(__name__, external_stylesheets = [dbc.themes.BOOTSTRAP, dbc_css])
-
+app.title = 'CO2 explorer'
 server = app.server
 
 app.layout = dbc.Container(
